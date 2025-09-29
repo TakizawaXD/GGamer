@@ -2,6 +2,7 @@ import { Gamepad2, Twitter, Twitch, Youtube } from 'lucide-react';
 import Link from 'next/link';
 import { Logo } from '../logo';
 import { DiscordIcon } from '../icons/discord-icon';
+import { WhatsappIcon } from '../icons/whatsapp-icon';
 
 export function Footer() {
   return (
@@ -26,6 +27,9 @@ export function Footer() {
             </Link>
             <Link href="https://discord.gg/mag-multiplexgamex-642021836451872809" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <DiscordIcon className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+            </Link>
+             <Link href="https://chat.whatsapp.com/I69dASTrftn2hO331ZbWFg" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <WhatsappIcon className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
             </Link>
           </div>
         </div>

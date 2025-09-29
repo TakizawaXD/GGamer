@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { games } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Download, Gamepad2 } from 'lucide-react';
+import { Gamepad2 } from 'lucide-react';
 import type { Metadata } from 'next';
 import { Badge } from '@/components/ui/badge';
 
@@ -24,11 +24,15 @@ export default function GamesPage() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {games.map((game) => {
           const gameImage = PlaceHolderImages.find(img => img.id === game.imageId);
           return (
-            <Card key={game.id} className="flex flex-col overflow-hidden transition-all hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 bg-card/80 backdrop-blur-sm">
+            <Card 
+              key={game.id} 
+              className="group flex flex-col overflow-hidden transition-all bg-card/80 backdrop-blur-sm relative isolate"
+            >
+              <div className="absolute inset-0 bg-primary/20 rounded-xl group-hover:bg-primary/30 transition-colors -z-10 animate-border-pulse" />
               <div className="aspect-video relative">
                 {gameImage && (
                   <Image
