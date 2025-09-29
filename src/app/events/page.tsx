@@ -14,8 +14,8 @@ import { Calendar, History, Check } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events - GGamer Hub',
-  description: 'Stay up to date with all community events, tournaments, and giveaways.',
+  title: 'Eventos - GGamer Hub',
+  description: 'Mantente al día con todos los eventos, torneos y sorteos de la comunidad.',
 };
 
 const EventCard = ({ event }: { event: typeof events[0] }) => {
@@ -40,7 +40,7 @@ const EventCard = ({ event }: { event: typeof events[0] }) => {
         <CardTitle className="font-headline">{event.title}</CardTitle>
         <p className="text-sm text-muted-foreground flex items-center gap-2 pt-1">
           <Calendar className="h-4 w-4" />
-          {new Date(event.date).toLocaleDateString('en-US', {
+          {new Date(event.date).toLocaleDateString('es-ES', {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
@@ -53,7 +53,7 @@ const EventCard = ({ event }: { event: typeof events[0] }) => {
       </CardContent>
       <CardFooter>
         <Button className="w-full" disabled={isPast}>
-          {isPast ? <><Check className="mr-2 h-4 w-4" /> Event Finished</> : 'Participate'}
+          {isPast ? <><Check className="mr-2 h-4 w-4" /> Evento Finalizado</> : 'Participar'}
         </Button>
       </CardFooter>
     </Card>
@@ -68,10 +68,10 @@ export default function EventsPage() {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-          Community Events
+          Eventos de la Comunidad
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Join our tournaments, giveaways, and other activities. There's always something happening!
+          Únete a nuestros torneos, sorteos y otras actividades. ¡Siempre está pasando algo!
         </p>
       </header>
 
@@ -80,11 +80,11 @@ export default function EventsPage() {
           <TabsList>
             <TabsTrigger value="upcoming">
               <Calendar className="mr-2 h-4 w-4" />
-              Upcoming
+              Próximos
             </TabsTrigger>
             <TabsTrigger value="past">
               <History className="mr-2 h-4 w-4" />
-              Past Events
+              Eventos Pasados
             </TabsTrigger>
           </TabsList>
         </div>
@@ -95,7 +95,7 @@ export default function EventsPage() {
               upcomingEvents.map((event) => <EventCard key={event.id} event={event} />)
             ) : (
               <p className="col-span-full text-center text-muted-foreground">
-                No upcoming events scheduled. Check back soon!
+                No hay eventos próximos programados. ¡Vuelve pronto!
               </p>
             )}
           </div>
@@ -107,7 +107,7 @@ export default function EventsPage() {
               pastEvents.map((event) => <EventCard key={event.id} event={event} />)
             ) : (
               <p className="col-span-full text-center text-muted-foreground">
-                No past events to show.
+                No hay eventos pasados para mostrar.
               </p>
             )}
           </div>

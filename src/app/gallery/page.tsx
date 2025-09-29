@@ -11,8 +11,8 @@ import { Upload } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Gallery - GGamer Hub',
-  description: 'Check out the best moments from our community and servers.',
+  title: 'Galería - GGamer Hub',
+  description: 'Echa un vistazo a los mejores momentos de nuestra comunidad y servidores.',
 };
 
 export default function GalleryPage() {
@@ -21,15 +21,15 @@ export default function GalleryPage() {
       <header className="flex flex-col md:flex-row justify-between items-center gap-4 mb-12">
         <div className="text-center md:text-left">
           <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-            Multimedia Gallery
+            Galería Multimedia
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-            The best moments from our servers and events, captured by the community.
+            Los mejores momentos de nuestros servidores y eventos, capturados por la comunidad.
           </p>
         </div>
         <Button size="lg">
           <Upload className="mr-2 h-5 w-5" />
-          Upload Image
+          Subir Imagen
         </Button>
       </header>
       

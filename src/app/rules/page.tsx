@@ -11,24 +11,24 @@ import { Book, HelpCircle } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Rules & FAQ - GGamer Hub',
-  description: 'Find all the rules for our Discord and Minecraft servers, and get answers to frequently asked questions.',
+  title: 'Reglas y Preguntas Frecuentes - GGamer Hub',
+  description: 'Encuentra todas las reglas para nuestros servidores de Discord y Minecraft, y obtén respuestas a las preguntas más frecuentes.',
 };
 
 const discordRules = [
-  'Be respectful to all members.',
-  'No spamming or self-promotion.',
-  'Keep conversations in the correct channels.',
-  'No NSFW content.',
-  'Follow Discord\'s Terms of Service.',
+  'Sé respetuoso con todos los miembros.',
+  'No hacer spam ni autopromoción.',
+  'Mantén las conversaciones en los canales correctos.',
+  'No hay contenido NSFW.',
+  'Sigue los Términos de Servicio de Discord.',
 ];
 
 const minecraftRules = [
-  'No griefing or stealing.',
-  'PvP is only allowed in designated areas.',
-  'No cheating, hacking, or exploiting glitches.',
-  'Respect staff and their decisions.',
-  'Do not build within 100 blocks of another player without permission.',
+  'No destruir construcciones ajenas ni robar.',
+  'El PvP solo está permitido en áreas designadas.',
+  'No hacer trampas, usar hacks o aprovecharse de fallos.',
+  'Respeta al personal y sus decisiones.',
+  'No construyas a menos de 100 bloques de otro jugador sin permiso.',
 ];
 
 export default function RulesPage() {
@@ -36,18 +36,18 @@ export default function RulesPage() {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-          Rules & FAQ
+          Reglas y Preguntas Frecuentes
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Everything you need to know to have a great time in our community.
+          Todo lo que necesitas saber para pasar un buen rato en nuestra comunidad.
         </p>
       </header>
 
       <Tabs defaultValue="rules" className="w-full max-w-4xl mx-auto">
         <div className="flex justify-center mb-8">
           <TabsList>
-            <TabsTrigger value="rules"><Book className="mr-2 h-4 w-4" /> Rules</TabsTrigger>
-            <TabsTrigger value="faq"><HelpCircle className="mr-2 h-4 w-4" /> FAQ</TabsTrigger>
+            <TabsTrigger value="rules"><Book className="mr-2 h-4 w-4" /> Reglas</TabsTrigger>
+            <TabsTrigger value="faq"><HelpCircle className="mr-2 h-4 w-4" /> Preguntas Frecuentes</TabsTrigger>
           </TabsList>
         </div>
 
@@ -55,7 +55,7 @@ export default function RulesPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="font-headline">Discord Rules</CardTitle>
+                <CardTitle className="font-headline">Reglas de Discord</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
@@ -70,7 +70,7 @@ export default function RulesPage() {
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle className="font-headline">Minecraft Rules</CardTitle>
+                <CardTitle className="font-headline">Reglas de Minecraft</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">

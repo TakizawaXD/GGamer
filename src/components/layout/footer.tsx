@@ -11,7 +11,7 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Logo />
             <p className="mt-2 text-sm text-muted-foreground">
-              Your central hub for our gaming community.
+              Tu centro de operaciones para nuestra comunidad de videojuegos.
             </p>
           </div>
           <div className="flex items-center gap-4">
@@ -30,7 +30,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-border/40 pt-4 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} GGamer Hub. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} GGamer Hub. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

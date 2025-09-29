@@ -24,7 +24,7 @@ export function UserNav() {
     return (
       <Button onClick={() => setIsLoggedIn(true)} className="font-semibold">
         <DiscordIcon className="mr-2 h-5 w-5" />
-        Login with Discord
+        Iniciar sesión con Discord
       </Button>
     );
   }
@@ -35,7 +35,7 @@ export function UserNav() {
         <Button variant="ghost" className="relative h-10 w-10 rounded-full">
           <Avatar className="h-10 w-10">
             {userAvatar && (
-                <AvatarImage src={userAvatar.imageUrl} alt="User" data-ai-hint={userAvatar.imageHint} />
+                <AvatarImage src={userAvatar.imageUrl} alt="Usuario" data-ai-hint={userAvatar.imageHint} />
             )}
             <AvatarFallback>U</AvatarFallback>
           </Avatar>
@@ -44,9 +44,9 @@ export function UserNav() {
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel className="font-normal">
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">User</p>
+            <p className="text-sm font-medium leading-none">Usuario</p>
             <p className="text-xs leading-none text-muted-foreground">
-              @user
+              @usuario
             </p>
           </div>
         </DropdownMenuLabel>
@@ -54,21 +54,21 @@ export function UserNav() {
         <DropdownMenuGroup>
           <DropdownMenuItem>
             <User className="mr-2 h-4 w-4" />
-            <span>Profile</span>
+            <span>Perfil</span>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <CreditCard className="mr-2 h-4 w-4" />
-            <span>Billing</span>
+            <span>Facturación</span>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Settings className="mr-2 h-4 w-4" />
-            <span>Settings</span>
+            <span>Ajustes</span>
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={() => setIsLoggedIn(false)}>
           <LogOut className="mr-2 h-4 w-4" />
-          <span>Log out</span>
+          <span>Cerrar sesión</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

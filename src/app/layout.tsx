@@ -5,9 +5,9 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'GGamer Hub - Your Community Gaming Portal',
-  description: 'Join the GGamer community. Check leaderboards, participate in events, and redeem rewards.',
-  keywords: ['gaming community', 'discord', 'minecraft', 'leaderboard', 'gamer', 'esports'],
+  title: 'GGamer Hub - Tu Portal de Comunidad de Videojuegos',
+  description: 'Únete a la comunidad de GGamer. Consulta las tablas de clasificación, participa en eventos y canjea recompensas.',
+  keywords: ['comunidad de videojuegos', 'discord', 'minecraft', 'tabla de clasificación', 'gamer', 'esports'],
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

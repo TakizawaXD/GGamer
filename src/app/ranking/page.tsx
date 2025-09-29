@@ -13,8 +13,8 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Leaderboard - GGamer Hub',
-  description: 'See the top players in the GGamer Hub community. Check your rank and climb the leaderboard!',
+  title: 'Clasificación - GGamer Hub',
+  description: 'Mira a los mejores jugadores de la comunidad de GGamer Hub. ¡Consulta tu rango y sube en la clasificación!',
 };
 
 export default function RankingPage() {
@@ -22,10 +22,10 @@ export default function RankingPage() {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-          Leaderboard
+          Clasificación
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Check out the most active players in our community. Keep playing to climb the ranks!
+          Echa un vistazo a los jugadores más activos de nuestra comunidad. ¡Sigue jugando para subir de rango!
         </p>
       </header>
       
@@ -33,9 +33,9 @@ export default function RankingPage() {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[80px] text-center font-headline text-base">Rank</TableHead>
-              <TableHead className="font-headline text-base">Player</TableHead>
-              <TableHead className="text-right font-headline text-base">Points</TableHead>
+              <TableHead className="w-[80px] text-center font-headline text-base">Rango</TableHead>
+              <TableHead className="font-headline text-base">Jugador</TableHead>
+              <TableHead className="text-right font-headline text-base">Puntos</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>

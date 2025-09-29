@@ -12,11 +12,11 @@ import { Logo } from '../logo';
 import { useState } from 'react';
 
 const navItems: NavItem[] = [
-  { title: 'Ranking', href: '/ranking' },
-  { title: 'Store', href: '/store' },
-  { title: 'Events', href: '/events' },
-  { title: 'Gallery', href: '/gallery' },
-  { title: 'Rules & FAQ', href: '/rules' },
+  { title: 'Clasificación', href: '/ranking' },
+  { title: 'Tienda', href: '/store' },
+  { title: 'Eventos', href: '/events' },
+  { title: 'Galería', href: '/gallery' },
+  { title: 'Reglas y FAQ', href: '/rules' },
 ];
 
 export function MainNav() {
@@ -30,7 +30,7 @@ export function MainNav() {
         <SheetTrigger asChild>
           <Button variant="ghost" size="icon">
             <Menu />
-            <span className="sr-only">Open Menu</span>
+            <span className="sr-only">Abrir Menú</span>
           </Button>
         </SheetTrigger>
         <SheetContent side="left">

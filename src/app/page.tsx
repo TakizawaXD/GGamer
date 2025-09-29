@@ -29,20 +29,20 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter !leading-tight">
-            Welcome to GGamer Hub
+            Bienvenido a GGamer Hub
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Your central hub for our gaming community. Track your stats, join events, and get rewards.
+            Tu centro de operaciones para nuestra comunidad de videojuegos. Sigue tus estadísticas, únete a eventos y obtén recompensas.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="font-semibold">
               <Link href="/ranking">
-                View Leaderboard <Trophy className="ml-2" />
+                Ver Clasificación <Trophy className="ml-2" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="font-semibold">
               <Link href="/events">
-                Upcoming Events <Calendar className="ml-2" />
+                Próximos Eventos <Calendar className="ml-2" />
               </Link>
             </Button>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="lg:col-span-2">
             <h2 className="font-headline text-3xl font-bold mb-6 flex items-center gap-3">
               <MessageSquare className="text-primary" />
-              Latest Activity
+              Última Actividad
             </h2>
             <div className="space-y-4">
               {discordFeed.slice(0, 4).map(post => {
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="space-y-8">
             <Card>
               <CardHeader>
-                <CardTitle className="font-headline flex items-center gap-2"><Trophy className="text-primary" /> Top Players</CardTitle>
+                <CardTitle className="font-headline flex items-center gap-2"><Trophy className="text-primary" /> Mejores Jugadores</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-4">
@@ -111,7 +111,7 @@ export default function Home() {
                   })}
                 </ul>
                 <Button asChild variant="link" className="px-0 mt-4">
-                  <Link href="/ranking">View all <ArrowRight className="ml-1 h-4 w-4" /></Link>
+                  <Link href="/ranking">Ver todos <ArrowRight className="ml-1 h-4 w-4" /></Link>
                 </Button>
               </CardContent>
             </Card>
@@ -119,14 +119,14 @@ export default function Home() {
             {upcomingEvent && (
               <Card>
                 <CardHeader>
-                  <CardTitle className="font-headline flex items-center gap-2"><Calendar className="text-primary" /> Upcoming Event</CardTitle>
+                  <CardTitle className="font-headline flex items-center gap-2"><Calendar className="text-primary" /> Próximo Evento</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <h3 className="font-semibold">{upcomingEvent.title}</h3>
-                  <p className="text-sm text-muted-foreground mt-1 mb-4">{new Date(upcomingEvent.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                  <p className="text-sm text-muted-foreground mt-1 mb-4">{new Date(upcomingEvent.date).toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
                   <p className="text-sm text-foreground/80 mb-4">{upcomingEvent.description.substring(0, 100)}...</p>
                   <Button asChild variant="secondary" className="w-full">
-                    <Link href="/events">Event Details</Link>
+                    <Link href="/events">Detalles del Evento</Link>
                   </Button>
                 </CardContent>
               </Card>

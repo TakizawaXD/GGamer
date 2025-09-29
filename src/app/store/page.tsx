@@ -15,25 +15,25 @@ import { Ticket, Gem } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Rewards Store - GGamer Hub',
-  description: 'Redeem your points for exclusive rewards, including Discord roles, Minecraft items, and more.',
+  title: 'Tienda de Recompensas - GGamer Hub',
+  description: 'Canjea tus puntos por recompensas exclusivas, incluyendo roles de Discord, ítems de Minecraft y más.',
 };
 
-const categories = ['All', 'Discord', 'Minecraft', 'Digital'];
+const categories = ['Todo', 'Discord', 'Minecraft', 'Digital'];
 
 export default function StorePage() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">
-          Rewards Store
+          Tienda de Recompensas
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Spend your hard-earned points on awesome rewards. You deserve it!
+          Gasta los puntos que tanto te ha costado ganar en increíbles recompensas. ¡Te lo mereces!
         </p>
       </header>
 
-      <Tabs defaultValue="All" className="w-full">
+      <Tabs defaultValue="Todo" className="w-full">
         <div className="flex justify-center mb-8">
           <TabsList>
             {categories.map((category) => (
@@ -46,14 +46,14 @@ export default function StorePage() {
           <TabsContent key={category} value={category}>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {rewards
-                .filter(reward => category === 'All' || reward.category === category)
+                .filter(reward => category === 'Todo' || reward.category === category)
                 .map((reward) => {
                   const rewardImage = PlaceHolderImages.find(img => img.id === reward.image);
                   return (
                     <Card key={reward.id} className="flex flex-col overflow-hidden transition-all hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1">
                       <CardHeader>
                         <CardTitle className="font-headline">{reward.title}</CardTitle>
-                        <CardDescription>{reward.category} Reward</CardDescription>
+                        <CardDescription>Recompensa de {reward.category}</CardDescription>
                       </CardHeader>
                       <CardContent className="flex-grow">
                         {rewardImage && (
@@ -75,7 +75,7 @@ export default function StorePage() {
                         </div>
                         <Button>
                           <Ticket className="mr-2 h-4 w-4" />
-                          Redeem
+                          Canjear
                         </Button>
                       </CardFooter>
                     </Card>
