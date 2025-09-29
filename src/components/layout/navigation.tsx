@@ -12,6 +12,7 @@ import { Logo } from '../logo';
 import { useState } from 'react';
 
 const navItems: NavItem[] = [
+  { title: 'Juegos', href: '/juegos' },
   { title: 'Clasificación', href: '/ranking' },
   { title: 'Tienda', href: '/store' },
   { title: 'Eventos', href: '/events' },

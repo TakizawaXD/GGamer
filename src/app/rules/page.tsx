@@ -7,8 +7,10 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { faqs } from '@/lib/data';
-import { Book, HelpCircle } from 'lucide-react';
+import { Book, HelpCircle, ShieldCheck, Diamond } from 'lucide-react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export const metadata: Metadata = {
   title: 'Reglas y Preguntas Frecuentes - GGamer Hub',
@@ -24,14 +26,16 @@ const discordRules = [
 ];
 
 const minecraftRules = [
-  'No destruir construcciones ajenas ni robar.',
-  'El PvP solo está permitido en áreas designadas.',
-  'No hacer trampas, usar hacks o aprovecharse de fallos.',
-  'Respeta al personal y sus decisiones.',
-  'No construyas a menos de 100 bloques de otro jugador sin permiso.',
+  { icon: ShieldCheck, rule: 'No destruir construcciones ajenas ni robar.' },
+  { icon: ShieldCheck, rule: 'El PvP solo está permitido en áreas designadas.' },
+  { icon: ShieldCheck, rule: 'No hacer trampas, usar hacks o aprovecharse de fallos.' },
+  { icon: ShieldCheck, rule: 'Respeta al personal y sus decisiones.' },
+  { icon: ShieldCheck, rule: 'No construyas a menos de 100 bloques de otro jugador sin permiso.' },
 ];
 
 export default function RulesPage() {
+  const minecraftBg = PlaceHolderImages.find(img => img.id === 'minecraft-rules-bg');
+
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="text-center mb-12">
@@ -60,29 +64,44 @@ export default function RulesPage() {
               <CardContent>
                 <ul className="space-y-3">
                   {discordRules.map((rule, index) => (
-                    <li key={index} className="flex gap-3">
-                      <span className="text-primary font-bold">{index + 1}.</span>
+                    <li key={index} className="flex gap-3 items-start">
+                      <span className="text-primary font-bold pt-1">{index + 1}.</span>
                       <p className="text-muted-foreground">{rule}</p>
                     </li>
                   ))}
                 </ul>
               </CardContent>
             </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-headline">Reglas de Minecraft</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  {minecraftRules.map((rule, index) => (
-                    <li key={index} className="flex gap-3">
-                      <span className="text-primary font-bold">{index + 1}.</span>
-                      <p className="text-muted-foreground">{rule}</p>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+            <div className="relative rounded-lg overflow-hidden border p-px">
+               {minecraftBg && (
+                <Image
+                  src={minecraftBg.imageUrl}
+                  alt="Minecraft background"
+                  fill
+                  className="object-cover z-0"
+                  data-ai-hint={minecraftBg.imageHint}
+                />
+               )}
+               <div className="absolute inset-0 bg-black/70 z-10"/>
+               <div className="relative z-20 h-full flex flex-col">
+                <CardHeader>
+                  <CardTitle className="font-headline text-white flex items-center gap-2">
+                    <Diamond className="text-cyan-400"/>
+                    Reglas de Minecraft
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <ul className="space-y-4">
+                    {minecraftRules.map(({icon: Icon, rule}, index) => (
+                      <li key={index} className="flex gap-3 items-center text-white/90">
+                        <Icon className="h-5 w-5 text-cyan-400 shrink-0" />
+                        <span>{rule}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+               </div>
+            </div>
           </div>
         </TabsContent>
 

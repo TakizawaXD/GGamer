@@ -51,3 +51,11 @@ export type DiscordPost = {
   content: string;
   timestamp: string;
 };
+
+export type Game = {
+  id: string;
+  title: string;
+  type: 'Gratis' | 'De Paga';
+  downloadUrl: string;
+  imageId: string;
+};

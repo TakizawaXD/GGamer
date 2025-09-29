@@ -24,7 +24,7 @@ export function Footer() {
             <Link href="#" aria-label="YouTube">
               <Youtube className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
             </Link>
-            <Link href="#" aria-label="Discord">
+            <Link href="https://discord.gg/mag-multiplexgamex-642021836451872809" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <DiscordIcon className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
             </Link>
           </div>

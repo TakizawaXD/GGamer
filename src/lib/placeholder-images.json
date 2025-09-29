@@ -3,8 +3,134 @@
     {
       "id": "hero-background",
       "description": "Abstract background of glowing neon lines and shapes, evoking a futuristic gaming aesthetic.",
-      "imageUrl": "https://images.unsplash.com/photo-1687804446688-d455c357385d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z2FtaW5nJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzU5MDg0NjA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1689443111384-1cf214df988a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTkwODQ2MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming abstract"
+    },
+    {
+      "id": "game-fortnite",
+      "description": "Fortnite game art",
+      "imageUrl": "https://images.unsplash.com/photo-1640152711682-83939d667926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxGb3J0bml0ZSUyMGdhbWVwbGF5fGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Fortnite gameplay"
+    },
+    {
+      "id": "game-minecraft",
+      "description": "Minecraft game art",
+      "imageUrl": "https://images.unsplash.com/photo-1555448049-8affc0fd79f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5lY3JhZnQlMjBibG9ja3N8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft blocks"
+    },
+    {
+      "id": "game-roblox",
+      "description": "Roblox game art",
+      "imageUrl": "https://images.unsplash.com/photo-1633636611822-30b3aece0748?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxSb2Jsb3glMjBjaGFyYWN0ZXJzfGVufDB8fHx8MTc1OTE4OTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Roblox characters"
+    },
+    {
+      "id": "game-lol",
+      "description": "League of Legends game art",
+      "imageUrl": "https://images.unsplash.com/photo-1631879813295-a96163460ddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxMZWFndWUlMjBvZiUyMExlZ2VuZHMlMjBiYXR0bGV8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "League of Legends battle"
+    },
+    {
+      "id": "game-valorant",
+      "description": "Valorant game art",
+      "imageUrl": "https://images.unsplash.com/photo-1700774606261-6ecad753a732?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxWYWxvcmFudCUyMGFnZW50fGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Valorant agent"
+    },
+    {
+      "id": "game-cs2",
+      "description": "Counter-Strike 2 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1599399056366-e318f572dbba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxDb3VudGVyJTIwU3RyaWtlfGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Counter Strike"
+    },
+    {
+      "id": "game-apex",
+      "description": "Apex Legends game art",
+      "imageUrl": "https://images.unsplash.com/photo-1711993429181-19905f9b84ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxBcGV4JTIwTGVnZW5kcyUyMHNxdWFkfGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Apex Legends squad"
+    },
+    {
+      "id": "game-cod",
+      "description": "Call of Duty game art",
+      "imageUrl": "https://images.unsplash.com/photo-1751661665543-a03ab4722119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxDYWxsJTIwb2YlMjBEdXR5JTIwc29sZGllcnxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Call of Duty soldier"
+    },
+    {
+      "id": "game-genshin",
+      "description": "Genshin Impact game art",
+      "imageUrl": "https://images.unsplash.com/photo-1659141632957-a2cd74b8a446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxHZW5zaGluJTIwSW1wYWN0JTIwY2hhcmFjdGVyfGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Genshin Impact character"
+    },
+    {
+      "id": "game-pubg",
+      "description": "PUBG game art",
+      "imageUrl": "https://images.unsplash.com/photo-1604864112069-65d4e87f8bc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxQVUJHJTIwYmF0dGxlZ3JvdW5kfGVufDB8fHx8MTc1OTE4OTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "PUBG battleground"
+    },
+    {
+      "id": "game-gta",
+      "description": "GTA V game art",
+      "imageUrl": "https://images.unsplash.com/photo-1748614611071-ea2e140a6dbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxHVEElMjBjaXR5fGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "GTA city"
+    },
+    {
+      "id": "game-overwatch",
+      "description": "Overwatch 2 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1738054040591-f57209d56065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxPdmVyd2F0Y2glMjBoZXJvZXN8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Overwatch heroes"
+    },
+    {
+      "id": "game-fc24",
+      "description": "EA Sports FC 24 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1559552673-350e98ba6a1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2NjZXIlMjBzdGFkaXVtfGVufDB8fHx8MTc1OTE0MzEzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soccer stadium"
+    },
+    {
+      "id": "game-rocket",
+      "description": "Rocket League game art",
+      "imageUrl": "https://images.unsplash.com/photo-1639222332836-96ab853a37ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxSb2NrZXQlMjBMZWFndWUlMjBjYXJ8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Rocket League car"
+    },
+    {
+      "id": "game-dota2",
+      "description": "Dota 2 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1613477757272-96c69d8a64de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxEb3RhJTIwMiUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Dota 2 battle"
+    },
+    {
+      "id": "game-helldivers",
+      "description": "Helldivers 2 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1568223737328-01d2875ae729?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxIZWxsZGl2ZXJzJTIwMiUyMHNvbGRpZXJzfGVufDB8fHx8MTc1OTE4OTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Helldivers 2 soldiers"
+    },
+    {
+      "id": "game-destiny",
+      "description": "Destiny 2 game art",
+      "imageUrl": "https://images.unsplash.com/photo-1710052803043-9d9761f32ad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxEZXN0aW55JTIwMiUyMGd1YXJkaWFufGVufDB8fHx8MTc1OTE4OTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Destiny 2 guardian"
+    },
+    {
+      "id": "game-fallguys",
+      "description": "Fall Guys game art",
+      "imageUrl": "https://images.unsplash.com/photo-1610993302487-6dbfc0acf4ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxGYWxsJTIwR3V5cyUyMGNoYXJhY3RlcnN8ZW58MHx8fHwxNzU5MTg5MDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Fall Guys characters"
+    },
+    {
+      "id": "game-honkai",
+      "description": "Honkai: Star Rail game art",
+      "imageUrl": "https://images.unsplash.com/photo-1559741621-3519cd4201db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8SG9ua2FpJTIwY2hhcmFjdGVyfGVufDB8fHx8MTc1OTE4OTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Honkai character"
+    },
+    {
+      "id": "game-wow",
+      "description": "World of Warcraft game art",
+      "imageUrl": "https://images.unsplash.com/photo-1683614548770-b2799f008c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxXYXJjcmFmdCUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Warcraft battle"
+    },
+    {
+      "id": "minecraft-rules-bg",
+      "description": "A beautiful Minecraft landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1570309977742-90c800236330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNaW5lY3JhZnQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft landscape"
     }
   ]
 }

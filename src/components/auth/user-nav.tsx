@@ -14,15 +14,20 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { CreditCard, LogOut, Settings, User } from 'lucide-react';
 import { DiscordIcon } from '../icons/discord-icon';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function UserNav() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const userAvatar = PlaceHolderImages.find(img => img.id === 'avatar1');
+  
+  // As placeholder images were removed, we can't rely on them.
+  // We'll use a fallback for now.
+  const userAvatar = {
+    imageUrl: `https://picsum.photos/seed/avatar1/100/100`,
+    imageHint: 'user avatar'
+  };
 
   if (!isLoggedIn) {
     return (
-      <Button onClick={() => setIsLoggedIn(true)} className="font-semibold">
+       <Button onClick={() => setIsLoggedIn(true)} className="font-semibold bg-blue-600 hover:bg-blue-700 text-white">
         <DiscordIcon className="mr-2 h-5 w-5" />
         Iniciar sesión con Discord
       </Button>
