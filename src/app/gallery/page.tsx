@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import {
   Dialog,
   DialogContent,
+  DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { gallery } from '@/lib/data';
@@ -52,6 +53,7 @@ export default function GalleryPage() {
                 </div>
               </DialogTrigger>
               <DialogContent className="max-w-4xl p-0 border-0">
+                <DialogTitle className="sr-only">{item.alt}</DialogTitle>
                 <Image
                   src={image.imageUrl}
                   alt={item.alt}
