@@ -1,0 +1,38 @@
+import { Gamepad2, Twitter, Twitch, Youtube } from 'lucide-react';
+import Link from 'next/link';
+import { Logo } from '../logo';
+import { DiscordIcon } from '../icons/discord-icon';
+
+export function Footer() {
+  return (
+    <footer className="border-t border-border/40 bg-background/95">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="text-center md:text-left">
+            <Logo />
+            <p className="mt-2 text-sm text-muted-foreground">
+              Your central hub for our gaming community.
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <Link href="#" aria-label="Twitter">
+              <Twitter className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+            </Link>
+            <Link href="#" aria-label="Twitch">
+              <Twitch className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+            </Link>
+            <Link href="#" aria-label="YouTube">
+              <Youtube className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+            </Link>
+            <Link href="#" aria-label="Discord">
+                <DiscordIcon className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+            </Link>
+          </div>
+        </div>
+        <div className="mt-8 border-t border-border/40 pt-4 text-center text-sm text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} GGamer Hub. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+}
