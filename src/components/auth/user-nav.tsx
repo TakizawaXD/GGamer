@@ -35,18 +35,18 @@ export function UserNav() {
         <Button variant="ghost" className="relative h-10 w-10 rounded-full">
           <Avatar className="h-10 w-10">
             {userAvatar && (
-                <AvatarImage src={userAvatar.imageUrl} alt="CyberNinja" data-ai-hint={userAvatar.imageHint} />
+                <AvatarImage src={userAvatar.imageUrl} alt="User" data-ai-hint={userAvatar.imageHint} />
             )}
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarFallback>U</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel className="font-normal">
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">CyberNinja</p>
+            <p className="text-sm font-medium leading-none">User</p>
             <p className="text-xs leading-none text-muted-foreground">
-              @cyberninja
+              @user
             </p>
           </div>
         </DropdownMenuLabel>
