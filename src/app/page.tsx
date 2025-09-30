@@ -1,15 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Trophy, Calendar, MessageSquare } from 'lucide-react';
+import { Trophy, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Badge } from '@/components/ui/badge';
-import { discordFeed, leaderboard, events } from '@/lib/data';
+import { events } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Home() {
-  const topPlayers = leaderboard.slice(0, 3);
   const upcomingEvent = events.find(e => e.type === 'upcoming');
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
 
@@ -52,70 +49,10 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <h2 className="font-headline text-3xl font-bold mb-6 flex items-center gap-3">
-              <MessageSquare className="text-primary" />
-              Última Actividad
-            </h2>
-            <div className="space-y-4">
-              {discordFeed.slice(0, 4).map(post => {
-                const authorAvatar = PlaceHolderImages.find(img => img.id === post.author.avatar);
-                return (
-                  <Card key={post.id} className="hover:border-primary/50 transition-colors">
-                    <CardContent className="p-4 flex gap-4">
-                      {authorAvatar && (
-                        <Avatar>
-                          <AvatarImage src={authorAvatar.imageUrl} alt={post.author.name} data-ai-hint={authorAvatar.imageHint} />
-                          <AvatarFallback>{post.author.name.charAt(0)}</AvatarFallback>
-                        </Avatar>
-                      )}
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <p className="font-semibold">{post.author.name}</p>
-                          <p className="text-xs text-muted-foreground">{post.timestamp}</p>
-                        </div>
-                        <p className="text-sm text-foreground/80">{post.content}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                );
-              })}
-            </div>
+            {/* Contenido principal futuro puede ir aquí */}
           </div>
 
           <div className="space-y-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-headline flex items-center gap-2"><Trophy className="text-primary" /> Mejores Jugadores</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-4">
-                  {topPlayers.map((player) => {
-                    const playerAvatar = PlaceHolderImages.find(img => img.id === player.avatar);
-                    return (
-                      <li key={player.id} className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          {playerAvatar && (
-                             <Avatar className="h-10 w-10">
-                              <AvatarImage src={playerAvatar.imageUrl} alt={player.name} data-ai-hint={playerAvatar.imageHint} />
-                              <AvatarFallback>{player.name.charAt(0)}</AvatarFallback>
-                            </Avatar>
-                          )}
-                          <div>
-                            <p className="font-semibold">{player.name}</p>
-                            <p className="text-sm text-muted-foreground">{player.points.toLocaleString()} pts</p>
-                          </div>
-                        </div>
-                        <Badge variant="secondary" className="font-bold text-lg">#{player.rank}</Badge>
-                      </li>
-                    );
-                  })}
-                </ul>
-                <Button asChild variant="link" className="px-0 mt-4">
-                  <Link href="/ranking">Ver todos <ArrowRight className="ml-1 h-4 w-4" /></Link>
-                </Button>
-              </CardContent>
-            </Card>
-
             {upcomingEvent && (
               <Card>
                 <CardHeader>
