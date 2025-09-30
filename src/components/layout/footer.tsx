@@ -1,4 +1,4 @@
-import { Gamepad2, Twitter, Twitch, Youtube } from 'lucide-react';
+import { Gamepad2, Twitch } from 'lucide-react';
 import Link from 'next/link';
 import { Logo } from '../logo';
 import { DiscordIcon } from '../icons/discord-icon';
@@ -16,14 +16,8 @@ export function Footer() {
             </p>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="#" aria-label="Twitter">
-              <Twitter className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
-            </Link>
             <Link href="#" aria-label="Twitch">
               <Twitch className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
-            </Link>
-            <Link href="#" aria-label="YouTube">
-              <Youtube className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
             </Link>
             <Link href="https://discord.gg/mag-multiplexgamex-642021836451872809" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <DiscordIcon className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
