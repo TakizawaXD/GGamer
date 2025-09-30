@@ -1,16 +1,6 @@
 import type { Player, Reward, GameEvent, GalleryImage, FaqItem, DiscordPost, Game } from './types';
 
 export const leaderboard: Player[] = [
-  { rank: 1, id: '1', name: 'Zephyr', points: 12580, avatar: 'avatar-1' },
-  { rank: 2, id: '2', name: 'Nova', points: 11940, avatar: 'avatar-2' },
-  { rank: 3, id: '3', name: 'Orion', points: 11230, avatar: 'avatar-3' },
-  { rank: 4, id: '4', name: 'Luna', points: 10890, avatar: 'avatar-4' },
-  { rank: 5, id: '5', name: 'Jaxon', points: 10560, avatar: 'avatar-5' },
-  { rank: 6, id: '6', name: 'Aria', points: 10210, avatar: 'avatar-6' },
-  { rank: 7, id: '7', name: 'Kai', points: 9980, avatar: 'avatar-7' },
-  { rank: 8, id: '8', name: 'Elara', points: 9750, avatar: 'avatar-8' },
-  { rank: 9, id: '9', name: 'Ronan', points: 9500, avatar: 'avatar-9' },
-  { rank: 10, id: '10', name: 'Sloane', points: 9230, avatar: 'avatar-10' },
 ];
 
 export const rewards: Reward[] = [
@@ -53,10 +43,6 @@ export const faqs: FaqItem[] = [
 ];
 
 export const discordFeed: DiscordPost[] = [
-  { id: 'post-1', author: { name: 'Admin', avatar: 'avatar-admin' }, content: '¡El nuevo torneo de Fortnite ha sido anunciado! Revisen el canal de #eventos para más detalles.', timestamp: 'hace 2 horas' },
-  { id: 'post-2', author: { name: 'Luna', avatar: 'avatar-4' }, content: '¡Qué buena partida de Valorant anoche! GG a todos.', timestamp: 'hace 5 horas' },
-  { id: 'post-3', author: { name: 'Jaxon', avatar: 'avatar-5' }, content: '¿Alguien para jugar unas partidas de LoL ahora?', timestamp: 'hace 8 horas' },
-  { id: 'post-4', author: { name: 'Orion', avatar: 'avatar-3' }, content: 'Acabo de terminar mi nueva base en el server de Minecraft, ¡vengan a verla en las coordenadas -150, 320!', timestamp: 'hace 1 día' },
 ];
 
 export const games: Game[] = [
