@@ -1,22 +1,16 @@
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Server, Users, ShieldCheck, Copy, Download } from 'lucide-react';
+import { Server, Users, ShieldCheck, Download } from 'lucide-react';
 import type { Metadata } from 'next';
+import { CopyIpButton } from './copy-ip-button';
 
 export const metadata: Metadata = {
   title: 'Servidor de Minecraft - GGamer Hub',
   description: 'Únete a nuestro servidor de Minecraft. Encuentra la IP, el estado y las reglas.',
 };
 
-const serverInfo = {
-  ip: 'juega.ggamerhub.com',
-  version: '1.21.1',
-  status: 'Online',
-  players: 64,
-  maxPlayers: 100,
-};
+const serverIp = 'juega.ggamerhub.com';
 
 const features = [
   { 
@@ -47,9 +41,46 @@ const rules = [
   'No construyas a menos de 100 bloques de otro jugador sin permiso.',
 ];
 
+async function getMinecraftServerStatus() {
+  try {
+    const res = await fetch(`https://api.mcsrvstat.us/3/${serverIp}`, {
+      // Revalidate cache every 60 seconds
+      next: { revalidate: 60 },
+    });
 
-export default function MinecraftPage() {
+    if (!res.ok) {
+      throw new Error('Failed to fetch server status');
+    }
+
+    const data = await res.json();
+    
+    if (data.online) {
+      return {
+        ip: serverIp,
+        version: data.version || 'Desconocida',
+        status: 'Online',
+        players: data.players.online,
+        maxPlayers: data.players.max,
+      };
+    }
+  } catch (error) {
+    console.error("Error fetching Minecraft server status:", error);
+  }
+  
+  // Fallback data if API fails or server is offline
+  return {
+    ip: serverIp,
+    version: 'Desconocida',
+    status: 'Offline',
+    players: 0,
+    maxPlayers: 0,
+  };
+}
+
+
+export default async function MinecraftPage() {
   const bgImage = PlaceHolderImages.find(img => img.id === 'minecraft-page-bg');
+  const serverInfo = await getMinecraftServerStatus();
 
   return (
     <div className="relative overflow-hidden">
@@ -85,9 +116,7 @@ export default function MinecraftPage() {
                         <p className="text-lg text-gray-300">IP del Servidor</p>
                         <p className="font-mono text-2xl font-bold text-primary-foreground tracking-widest">{serverInfo.ip}</p>
                     </div>
-                    <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white font-bold border-2 border-green-800 shadow-lg">
-                        <Copy className="mr-2" /> Copiar IP
-                    </Button>
+                    <CopyIpButton ip={serverInfo.ip} />
                 </CardContent>
             </Card>
         </section>
