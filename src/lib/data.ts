@@ -32,6 +32,14 @@ export const gallery: GalleryImage[] = [
   { id: '6', alt: 'Momento final de una tensa partida de CS2.', src: 'gallery-6' },
   { id: '7', alt: 'Explorando una cueva misteriosa en Minecraft.', src: 'gallery-7' },
   { id: '8', alt: 'Decoración del spawn para el evento de Navidad.', src: 'gallery-8' },
+  { id: '9', alt: 'Un guardián de Destiny 2 posando con su armadura.', src: 'gallery-9' },
+  { id: '10', alt: 'Carrera de coches al neón en Grand Theft Auto V.', src: 'gallery-10' },
+  { id: '11', alt: 'Un momento de calma en Stardew Valley.', src: 'gallery-11' },
+  { id: '12', alt: 'Batalla épica contra un jefe en Elden Ring.', src: 'gallery-12' },
+  { id: '13', alt: 'Equipo de Helldivers 2 descendiendo sobre un planeta hostil.', src: 'gallery-13' },
+  { id: '14', alt: 'Construyendo una fábrica masiva en Satisfactory.', src: 'gallery-14' },
+  { id: '15', alt: 'Un barco pirata navegando hacia el atardecer en Sea of Thieves.', src: 'gallery-15' },
+  { id: '16', alt: 'Personaje de Final Fantasy XIV en una ciudad bulliciosa.', src: 'gallery-16' },
 ];
 
 export const faqs: FaqItem[] = [
@@ -119,3 +127,4 @@ export const games: Game[] = [
   { id: "star-citizen", title: "Star Citizen", type: "De Paga", downloadUrl: "https://robertsspaceindustries.com/star-citizen", imageId: "game-starcitizen" },
   { id: "osu", title: "osu!", type: "Gratis", downloadUrl: "https://osu.ppy.sh/home", imageId: "game-osu" }
 ];
+
