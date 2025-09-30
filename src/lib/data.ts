@@ -1,6 +1,16 @@
 import type { Player, Reward, GameEvent, GalleryImage, FaqItem, DiscordPost, Game } from './types';
 
 export const leaderboard: Player[] = [
+  { rank: 1, id: '1', name: 'Zephyr', points: 24580, avatar: 'avatar-1' },
+  { rank: 2, id: '2', name: 'Nova', points: 22140, avatar: 'avatar-2' },
+  { rank: 3, id: '3', name: 'Orion', points: 20560, avatar: 'avatar-3' },
+  { rank: 4, id: '4', name: 'Luna', points: 18990, avatar: 'avatar-4' },
+  { rank: 5, id: '5', name: 'Jaxon', points: 17620, avatar: 'avatar-5' },
+  { rank: 6, id: '6', name: 'Aria', points: 16350, avatar: 'avatar-6' },
+  { rank: 7, id: '7', name: 'Kai', points: 14980, avatar: 'avatar-7' },
+  { rank: 8, id: '8', name: 'Elara', points: 13210, avatar: 'avatar-8' },
+  { rank: 9, id: '9', name: 'Ronan', points: 11840, avatar: 'avatar-9' },
+  { rank: 10, id: '10', name: 'Sloane', points: 10570, avatar: 'avatar-10' },
 ];
 
 export const rewards: Reward[] = [
@@ -51,6 +61,10 @@ export const faqs: FaqItem[] = [
 ];
 
 export const discordFeed: DiscordPost[] = [
+  { id: '1', author: { name: 'Admin', avatar: 'avatar-admin' }, content: '¡Bienvenidos a GGamer Hub! No olviden leer las reglas y presentarse. ¡Nos vemos en el juego! 🚀', timestamp: 'Hace 5 minutos' },
+  { id: '2', author: { name: 'Zephyr', avatar: 'avatar-1' }, content: '¡El nuevo mapa de parkour en Minecraft es una locura! ¿Alguien ha conseguido pasárselo ya?', timestamp: 'Hace 2 horas' },
+  { id: '3', author: { name: 'Nova', avatar: 'avatar-2' }, content: 'Buscando equipo para el torneo de Fortnite del fin de semana. ¿Alguien se apunta?', timestamp: 'Hace 4 horas' },
+  { id: '4', author: { name: 'Luna', avatar: 'avatar-4' }, content: 'Acabo de canjear mis puntos por un rol VIP. ¡Se ve genial! ✨', timestamp: 'Hace 1 día' },
 ];
 
 export const games: Game[] = [
@@ -128,3 +142,4 @@ export const games: Game[] = [
   { id: "osu", title: "osu!", type: "Gratis", downloadUrl: "https://osu.ppy.sh/home", imageId: "game-osu" }
 ];
 
+    
