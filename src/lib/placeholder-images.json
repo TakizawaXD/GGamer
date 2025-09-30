@@ -3,8 +3,206 @@
     {
       "id": "hero-background",
       "description": "Abstract background of glowing neon lines and shapes, evoking a futuristic gaming aesthetic.",
-      "imageUrl": "https://images.unsplash.com/photo-1689443111384-1cf214df988a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTkwODQ2MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "gaming abstract"
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-119c873347a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnYW1pbmclMjBlc3BvcnRzfGVufDB8fHx8MTc1OTEzNjQxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming esports"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar for Zephyr",
+      "imageUrl": "https://images.unsplash.com/photo-1645763341075-663e2237018d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGxheWVyJTIwYXZhdGFyfGVufDB8fHx8MTc1OTE4OTYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar for Nova",
+      "imageUrl": "https://images.unsplash.com/photo-1718057948468-7f4e421be52e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Avatar for Orion",
+      "imageUrl": "https://images.unsplash.com/photo-1648526605941-d87e594f24f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-4",
+      "description": "Avatar for Luna",
+      "imageUrl": "https://images.unsplash.com/photo-1648526605941-d87e594f24f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-5",
+      "description": "Avatar for Jaxon",
+      "imageUrl": "https://images.unsplash.com/photo-1669605140640-d5908ffe8524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-6",
+      "description": "Avatar for Aria",
+      "imageUrl": "https://images.unsplash.com/photo-1718057948468-7f4e421be52e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-7",
+      "description": "Avatar for Kai",
+      "imageUrl": "https://images.unsplash.com/photo-1655780004656-514350b9c8aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-8",
+      "description": "Avatar for Elara",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1557250028-69f1fcb3d82c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-9",
+      "description": "Avatar for Ronan",
+      "imageUrl": "https://images.unsplash.com/photo-1669605140640-d5908ffe8524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-10",
+      "description": "Avatar for Sloane",
+      "imageUrl": "https://images.unsplash.com/photo-1645763341075-663e2237018d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGxheWVyJTIwYXZhdGFyfGVufDB8fHx8MTc1OTE4OTYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "player avatar"
+    },
+    {
+      "id": "avatar-admin",
+      "description": "Avatar for Admin",
+      "imageUrl": "https://images.unsplash.com/photo-1667840578978-9fe7fe5c0bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhZG1pbiUyMGF2YXRhcnxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "admin avatar"
+    },
+    {
+      "id": "reward-discord",
+      "description": "Discord reward image",
+      "imageUrl": "https://images.unsplash.com/photo-1640129346666-173276aac809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaXNjb3JkJTIwbG9nb3xlbnwwfHx8fDE3NTkxNTM2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "discord logo"
+    },
+    {
+      "id": "reward-minecraft",
+      "description": "Minecraft reward image",
+      "imageUrl": "https://images.unsplash.com/photo-1633174294583-696d6d81b323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWluZWNyYWZ0JTIwZGlhbW9uZHxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft diamond"
+    },
+    {
+      "id": "reward-steam",
+      "description": "Steam reward image",
+      "imageUrl": "https://images.unsplash.com/photo-1545785028-23ee5937cf69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnaWZ0JTIwY2FyZHxlbnwwfHx8fDE3NTkxNjcwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gift card"
+    },
+    {
+      "id": "reward-pet",
+      "description": "Minecraft pet reward",
+      "imageUrl": "https://images.unsplash.com/photo-1667938318975-823e395d74d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtaW5lY3JhZnQlMjB3b2xmfGVufDB8fHx8MTc1OTE5MTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft wolf"
+    },
+    {
+      "id": "reward-badge",
+      "description": "Profile badge reward",
+      "imageUrl": "https://images.unsplash.com/photo-1710161468204-9a92f533d7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9maWxlJTIwYmFkZ2V8ZW58MHx8fHwxNzU5MTkxMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile badge"
+    },
+    {
+      "id": "reward-beta",
+      "description": "Beta access reward",
+      "imageUrl": "https://images.unsplash.com/photo-1668369287067-d91b39629ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiZXRhJTIwdGVzdHxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beta test"
+    },
+    {
+      "id": "reward-box",
+      "description": "Mystery box reward",
+      "imageUrl": "https://images.unsplash.com/photo-1672256019862-11397fbf0c10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXlzdGVyeSUyMGJveHxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mystery box"
+    },
+    {
+      "id": "reward-priority",
+      "description": "Priority access reward",
+      "imageUrl": "https://images.unsplash.com/photo-1626207887298-da2fc1f50e82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2aXAlMjB0aWNrZXR8ZW58MHx8fHwxNzU5MTg4MzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vip ticket"
+    },
+    {
+      "id": "event-fortnite",
+      "description": "Fortnite tournament",
+      "imageUrl": "https://images.unsplash.com/photo-1713897564450-7e7d82ddc4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxGb3J0bml0ZSUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Fortnite battle"
+    },
+    {
+      "id": "event-minecraft",
+      "description": "Minecraft contest",
+      "imageUrl": "https://images.unsplash.com/photo-1604839892699-3fcf656cd822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtaW5lY3JhZnQlMjBidWlsZHxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft build"
+    },
+    {
+      "id": "event-valorant",
+      "description": "Valorant giveaway",
+      "imageUrl": "https://images.unsplash.com/photo-1662595573446-3be7cfcb4b08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxWYWxvcmFudCUyMGFnZW50fGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Valorant agent"
+    },
+    {
+      "id": "event-community",
+      "description": "Community night",
+      "imageUrl": "https://images.unsplash.com/photo-1661697522391-699652d67ad3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGFydHklMjBnYW1lc3xlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "party games"
+    },
+    {
+      "id": "event-parkour",
+      "description": "Minecraft parkour",
+      "imageUrl": "https://images.unsplash.com/photo-1583767982549-a4a5bcb824a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5lY3JhZnQlMjBwYXJrb3VyfGVufDB8fHx8MTc1OTE5MTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft parkour"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Minecraft castle",
+      "imageUrl": "https://images.unsplash.com/photo-1710906233937-0b1449196186?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtaW5lY3JhZnQlMjBjYXN0bGV8ZW58MHx8fHwxNzU5MTI0MzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft castle"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Valorant win",
+      "imageUrl": "https://images.unsplash.com/photo-1724957505233-e8f582bb2ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxWYWxvcmFudCUyMHZpY3Rvcnl8ZW58MHx8fHwxNzU5MTkxMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Valorant victory"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Community selfie",
+      "imageUrl": "https://images.unsplash.com/photo-1725272532764-183d164c722b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBjb21tdW5pdHl8ZW58MHx8fHwxNzU5MDkyNTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming community"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Rust base",
+      "imageUrl": "https://images.unsplash.com/photo-1615447967691-8c4397949da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxSdXN0JTIwYmFzZXxlbnwwfHx8fDE3NTkxOTEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Rust base"
+    },
+    {
+      "id": "gallery-5",
+      "description": "City sunset",
+      "imageUrl": "https://images.unsplash.com/photo-1682120033757-9f61b9e04d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaW5lY3JhZnQlMjBjaXR5fGVufDB8fHx8MTc1OTE5MTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft city"
+    },
+    {
+      "id": "gallery-6",
+      "description": "CS2 clutch",
+      "imageUrl": "https://images.unsplash.com/photo-1709540235576-741d0731fb61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxDUzIlMjBnYW1lfGVufDB8fHx8MTc1OTE5MTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "CS2 game"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Cave exploration",
+      "imageUrl": "https://images.unsplash.com/photo-1596279691646-51b6cce35274?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaW5lY3JhZnQlMjBjYXZlfGVufDB8fHx8MTc1OTE5MTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minecraft cave"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Christmas event",
+      "imageUrl": "https://images.unsplash.com/photo-1735720520964-6f0718bcef81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaHJpc3RtYXMlMjBnYW1pbmd8ZW58MHx8fHwxNzU5MTkxMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "christmas gaming"
+    },
+    {
+      "id": "minecraft-rules-bg",
+      "description": "A beautiful Minecraft landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1605333158022-51980313a07c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNaW5lY3JhZnQlMjBzdW5zZXR8ZW58MHx8fHwxNzU5MTQyNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft sunset"
     },
     {
       "id": "game-fortnite",
@@ -125,12 +323,6 @@
       "description": "World of Warcraft game art",
       "imageUrl": "https://images.unsplash.com/photo-1683614548770-b2799f008c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxXYXJjcmFmdCUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Warcraft battle"
-    },
-    {
-      "id": "minecraft-rules-bg",
-      "description": "A beautiful Minecraft landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1570309977742-90c800236330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNaW5lY3JhZnQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU5MTg5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "Minecraft landscape"
     },
     {
       "id": "game-eldenring",

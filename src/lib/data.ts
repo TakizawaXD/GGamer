@@ -1,17 +1,63 @@
 import type { Player, Reward, GameEvent, GalleryImage, FaqItem, DiscordPost, Game } from './types';
 
-export const leaderboard: Player[] = [];
+export const leaderboard: Player[] = [
+  { rank: 1, id: '1', name: 'Zephyr', points: 12580, avatar: 'avatar-1' },
+  { rank: 2, id: '2', name: 'Nova', points: 11940, avatar: 'avatar-2' },
+  { rank: 3, id: '3', name: 'Orion', points: 11230, avatar: 'avatar-3' },
+  { rank: 4, id: '4', name: 'Luna', points: 10890, avatar: 'avatar-4' },
+  { rank: 5, id: '5', name: 'Jaxon', points: 10560, avatar: 'avatar-5' },
+  { rank: 6, id: '6', name: 'Aria', points: 10210, avatar: 'avatar-6' },
+  { rank: 7, id: '7', name: 'Kai', points: 9980, avatar: 'avatar-7' },
+  { rank: 8, id: '8', name: 'Elara', points: 9750, avatar: 'avatar-8' },
+  { rank: 9, id: '9', name: 'Ronan', points: 9500, avatar: 'avatar-9' },
+  { rank: 10, id: '10', name: 'Sloane', points: 9230, avatar: 'avatar-10' },
+];
 
-export const rewards: Reward[] = [];
+export const rewards: Reward[] = [
+  { id: '1', title: 'Rol VIP en Discord', description: 'Obtén un color de nombre exclusivo y acceso a canales privados.', cost: 5000, image: 'reward-discord', category: 'Discord' },
+  { id: '2', title: 'Kit de Inicio en Minecraft', description: 'Recibe un kit con herramientas de diamante y 16 diamantes.', cost: 10000, image: 'reward-minecraft', category: 'Minecraft' },
+  { id: '3', title: 'Tarjeta de Regalo de Steam', description: 'Una tarjeta de regalo de $10 USD para tus juegos favoritos.', cost: 25000, image: 'reward-steam', category: 'Digital' },
+  { id: '4', title: 'Mascota Exclusiva en el Juego', description: 'Adopta una mascota única que te seguirá en el servidor de Minecraft.', cost: 15000, image: 'reward-pet', category: 'Minecraft' },
+  { id: '5', title: 'Emblema de Perfil Único', description: 'Un emblema especial para lucir en tu perfil de la comunidad.', cost: 2500, image: 'reward-badge', category: 'Discord' },
+  { id: '6', title: 'Acceso Beta a Nuevos Juegos', description: 'Sé el primero en probar los nuevos servidores y juegos.', cost: 50000, image: 'reward-beta', category: 'Digital' },
+  { id: '7', title: 'Caja Misteriosa', description: 'Contiene una recompensa aleatoria. ¡Podría ser cualquier cosa!', cost: 7500, image: 'reward-box', category: 'Minecraft' },
+  { id: '8', title: 'Prioridad de Acceso', description: 'Entra a los servidores llenos sin tener que esperar.', cost: 12000, image: 'reward-priority', category: 'Discord' },
+];
 
 const now = new Date();
-export const events: GameEvent[] = [];
+export const events: GameEvent[] = [
+  { id: '1', title: 'Torneo de Fortnite 2v2', description: 'Compite por un premio de $100 en metálico. ¡Inscripciones abiertas!', date: new Date(now.setDate(now.getDate() + 14)).toISOString(), type: 'upcoming', image: 'event-fortnite' },
+  { id: '2', title: 'Concurso de Construcción en Minecraft', description: 'El tema es "Ciudades Futuristas". ¡Los 3 mejores constructores ganan premios!', date: new Date(now.setDate(now.getDate() + 30)).toISOString(), type: 'upcoming', image: 'event-minecraft' },
+  { id: '3', title: 'Sorteo de Aspectos de Valorant', description: 'Participa para ganar uno de los 5 lotes de aspectos de la nueva temporada.', date: new Date(now.setDate(now.getDate() - 7)).toISOString(), type: 'past', image: 'event-valorant' },
+  { id: '4', title: 'Noche de Juegos de la Comunidad', description: 'Jugamos a Jackbox y otros party games. ¡Risass garantizadas!', date: new Date(now.setDate(now.getDate() - 20)).toISOString(), type: 'past', image: 'event-community' },
+  { id: '5', title: 'Carrera de Parkour en Minecraft', description: 'Demuestra tu habilidad en nuestro nuevo mapa de parkour extremo.', date: new Date(now.setDate(now.getDate() + 5)).toISOString(), type: 'upcoming', image: 'event-parkour' },
+];
 
-export const gallery: GalleryImage[] = [];
+export const gallery: GalleryImage[] = [
+  { id: '1', alt: 'Impresionante castillo construido en nuestro servidor de Minecraft.', src: 'gallery-1' },
+  { id: '2', alt: 'Victoria épica en un torneo de Valorant.', src: 'gallery-2' },
+  { id: '3', alt: 'Selfie grupal durante el evento de la comunidad.', src: 'gallery-3' },
+  { id: '4', alt: 'Una base compleja y automatizada en Rust.', src: 'gallery-4' },
+  { id: '5', alt: 'Atardecer sobre una ciudad construida por jugadores.', src: 'gallery-5' },
+  { id: '6', alt: 'Momento final de una tensa partida de CS2.', src: 'gallery-6' },
+  { id: '7', alt: 'Explorando una cueva misteriosa en Minecraft.', src: 'gallery-7' },
+  { id: '8', alt: 'Decoración del spawn para el evento de Navidad.', src: 'gallery-8' },
+];
 
-export const faqs: FaqItem[] = [];
+export const faqs: FaqItem[] = [
+  { id: 'faq-1', question: '¿Cómo me uno al servidor de Minecraft?', answer: 'Puedes encontrar la dirección del servidor (IP) en nuestro canal de Discord #minecraft. ¡Asegúrate de estar usando la última versión del juego!' },
+  { id: 'faq-2', question: '¿Cómo gano puntos en la tienda?', answer: 'Ganas puntos siendo activo en Discord, participando en eventos, y jugando en nuestros servidores. ¡Cada interacción cuenta!' },
+  { id: 'faq-3', question: '¿Las reglas son las mismas para Discord y Minecraft?', answer: 'Las reglas generales de respeto y comportamiento se aplican en ambos, pero cada plataforma tiene sus propias reglas específicas. ¡Asegúrate de leer la sección de #reglas en Discord y los carteles en el servidor de Minecraft!' },
+  { id: 'faq-4', question: '¿Puedo sugerir un nuevo juego para la comunidad?', answer: '¡Por supuesto! Tenemos un canal en Discord llamado #sugerencias donde puedes proponer nuevos juegos o cualquier otra idea que tengas.' },
+  { id: 'faq-5', question: '¿Qué hago si alguien está rompiendo las reglas?', answer: 'Contacta a un moderador o administrador inmediatamente. Puedes mencionarlos en el canal apropiado o enviarles un mensaje directo. No intentes hacer justicia por tu cuenta.' },
+];
 
-export const discordFeed: DiscordPost[] = [];
+export const discordFeed: DiscordPost[] = [
+  { id: 'post-1', author: { name: 'Admin', avatar: 'avatar-admin' }, content: '¡El nuevo torneo de Fortnite ha sido anunciado! Revisen el canal de #eventos para más detalles.', timestamp: 'hace 2 horas' },
+  { id: 'post-2', author: { name: 'Luna', avatar: 'avatar-4' }, content: '¡Qué buena partida de Valorant anoche! GG a todos.', timestamp: 'hace 5 horas' },
+  { id: 'post-3', author: { name: 'Jaxon', avatar: 'avatar-5' }, content: '¿Alguien para jugar unas partidas de LoL ahora?', timestamp: 'hace 8 horas' },
+  { id: 'post-4', author: { name: 'Orion', avatar: 'avatar-3' }, content: 'Acabo de terminar mi nueva base en el server de Minecraft, ¡vengan a verla en las coordenadas -150, 320!', timestamp: 'hace 1 día' },
+];
 
 export const games: Game[] = [
   { id: 'fortnite', title: 'Fortnite', type: 'Gratis', downloadUrl: 'https://www.epicgames.com/fortnite/es-ES/home', imageId: 'game-fortnite' },
@@ -45,7 +91,7 @@ export const games: Game[] = [
   { id: "sea-of-thieves", title: "Sea of Thieves", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2024_Edition/", imageId: "game-seaofthieves" },
   { id: "rust", title: "Rust", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/252490/Rust/", imageId: "game-rust" },
   { id: "ark-survival", title: "ARK: Survival Evolved", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/", imageId: "game-ark" },
-  { id: "dead-by-daylight", title: "Dead by Daylight", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/381210/Dead_by_Daylight/", imageId: 'game-dbd' },
+  { id: 'dead-by-daylight', title: 'Dead by Daylight', type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/381210/Dead_by_Daylight/', imageId: 'game-dbd' },
   { id: 'phasmophobia', title: 'Phasmophobia', type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/739630/Phasmophobia/', imageId: 'game-phasmophobia' },
   { id: 'baldurs-gate-3', title: "Baldur's Gate 3", type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/1086940/Baldurs_Gate_3/', imageId: 'game-bg3' },
   { id: 'palworld', title: 'Palworld', type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/1623730/Palworld/', imageId: 'game-palworld' },
@@ -67,7 +113,7 @@ export const games: Game[] = [
   { id: 'no-mans-sky', title: "No Man's Sky", type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/275850/No_Mans_Sky/', imageId: 'game-nomanssky' },
   { id: 'rimworld', title: 'RimWorld', type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/294100/RimWorld/', imageId: 'game-rimworld' },
   { id: 'subnautica', title: 'Subnautica', type: 'De Paga', downloadUrl: 'https://store.steampowered.com/app/264710/Subnautica/', imageId: 'game-subnautica' },
-  { id: 'the-forest', title: "The Forest", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/242760/The_Forest/", imageId: "game-theforest" },
+  { id: "the-forest", title: "The Forest", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/242760/The_Forest/", imageId: "game-theforest" },
   { id: "factorio", title: "Factorio", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/427520/Factorio/", imageId: "game-factorio" },
   { id: "satisfactory", title: "Satisfactory", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/526870/Satisfactory/", imageId: "game-satisfactory" },
   { id: "squad", title: "Squad", type: "De Paga", downloadUrl: "https://store.steampowered.com/app/393380/Squad/", imageId: "game-squad" },
