@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Únete a nuestro servidor de Minecraft. Encuentra la IP, el estado y las reglas.',
 };
 
-const serverIp = 'juega.ggamerhub.com';
+const serverIp = 'GGAMER999.aternos.me:44420';
 
 const features = [
   { 
