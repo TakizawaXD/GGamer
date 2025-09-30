@@ -279,8 +279,8 @@
     {
       "id": "game-fortnite",
       "description": "Fortnite game art",
-      "imageUrl": "https://images.unsplash.com/photo-1701393278274-9540e5a87201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxGb3J0bml0ZSUyMGNoYXJhY3RlcnN8ZW58MHx8fHwxNzU5MzA5OTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "Fortnite characters"
+      "imageUrl": "https://images.unsplash.com/photo-1608561656639-8d54f5717bee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxN3x8QXJtYXN8ZW58MHx8fHwxNzU5MjAwMzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weapons game"
     },
     {
       "id": "game-minecraft",
@@ -393,19 +393,19 @@
     {
       "id": "game-wow",
       "description": "World of Warcraft game art",
-      "imageUrl": "https://images.unsplash.com/photo-1683614548770-b2799f008c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxXYXJjcmFmdCUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1683614548770-b2799f008c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxXYXJjcmFmdCUyMGJhdHRsZXxlbnwwfHx8fDE3NTkxODkwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Warcraft battle"
     },
     {
       "id": "game-eldenring",
       "description": "Elden Ring game art",
-      "imageUrl": "https://images.unsplash.com/photo-1724253988422-60ff6302d31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxFbGRlbiUyMFJpbmclMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1724253988422-60ff6302d31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxFbGRlbiUyMFJpbmclMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Elden Ring landscape"
     },
     {
       "id": "game-cyberpunk",
       "description": "Cyberpunk 2077 game art",
-      "imageUrl": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxDeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc1OTE4OTUyOXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxDeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc1OTE4OTUyOXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Cyberpunk city"
     },
     {
@@ -423,7 +423,7 @@
     {
       "id": "game-stardew",
       "description": "Stardew Valley game art",
-      "imageUrl": "https://images.unsplash.com/photo-1635516823474-844f45be0498?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaXhlbCUyMGZhcm18ZW58MHx8fHwxNzU5MTM2NTMxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1635516823474-844f45be0498?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaXhlbCUyMGZhcm18ZW58MHx8fHwxNzU5MTM2NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pixel farm"
     },
     {
@@ -441,19 +441,19 @@
     {
       "id": "game-hades",
       "description": "Hades game art",
-      "imageUrl": "https://images.unsplash.com/photo-1692891958963-179c2addf342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxteXRob2xvZ3klMjB1bmRlcndvcmxkfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1692891958963-179c2addf342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxteXRob2xvZ3klMjB1bmRlcndvcmxkfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mythology underworld"
     },
     {
       "id": "game-seaofthieves",
       "description": "Sea of Thieves game art",
-      "imageUrl": "https://images.unsplash.com/photo-1527685609591-44b0aef2400b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaXJhdGUlMjBzaGlwfGVufDB8fHx8MTc1OTEyODU0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1527685609591-44b0aef2400b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaXJhdGUlMjBzaGlwfGVufDB8fHx8MTc1OTEyODU0MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pirate ship"
     },
     {
       "id": "game-rust",
       "description": "Rust game art",
-      "imageUrl": "https://images.unsplash.com/photo-1653831100409-615184dc8d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXJ2aXZhbCUyMGNyYWZ0fGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1653831100409-615184dc8d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXJ2aXZhbCUyMGNyYWZ0fGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "survival craft"
     },
     {
@@ -465,7 +465,7 @@
     {
       "id": "game-dbd",
       "description": "Dead by Daylight game art",
-      "imageUrl": "https://images.unsplash.com/photo-1693673488806-7f3fc85b5bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3Jyb3IlMjBzdXJ2aXZhbHxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1693673488806-7f3fc85b5bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3Jyb3IlMjBzdXJ2aXZhbHxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "horror survival"
     },
     {
@@ -501,7 +501,7 @@
     {
       "id": "game-sims4",
       "description": "The Sims 4 game art",
-      "imageUrl": "https://images.unsplash.com/photo-1724140334358-663a798d4888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsaWZlJTIwc2ltdWxhdGlvbnxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1724140334358-663a798d4888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsaWZlJTIwc2ltdWxhdGlvbnxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "life simulation"
     },
     {
@@ -513,13 +513,13 @@
     {
       "id": "game-warframe",
       "description": "Warframe game art",
-      "imageUrl": "https://images.unsplash.com/photo-1758739956752-c66189171164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758739956752-c66189171164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sci-fi action"
     },
     {
       "id": "game-poe",
       "description": "Path of Exile game art",
-      "imageUrl": "https://images.unsplash.com/photo-1730816401327-1b6ce7b2a926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY3Rpb24lMjBSUEd8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730816401327-1b6ce7b2a926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY3Rpb24lMjBSUEd8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "action RPG"
     },
     {
@@ -531,7 +531,7 @@
     {
       "id": "game-lostark",
       "description": "Lost Ark game art",
-      "imageUrl": "https://images.unsplash.com/photo-1758873263520-1f77729ad5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxNTU9SUEclMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758873263520-1f77729ad5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxNTU9SUEclMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "MMORPG action"
     },
     {
@@ -627,7 +627,7 @@
     {
       "id": "game-albion",
       "description": "Albion Online game art",
-      "imageUrl": "https://images.unsplash.com/photo-1698778540102-115d8c8e0b08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kYm94JTIwTU1PUlBHfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1698778540102-115d8c8e0b08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kYm94JTIwTU1PUlBHfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sandbox MMORPG"
     },
     {
@@ -639,7 +639,7 @@
     {
       "id": "game-eve",
       "description": "EVE Online game art",
-      "imageUrl": "https://images.unsplash.com/photo-1687639676496-ebb340ee4def?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhY2UlMjBNTU9SUEd8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1687639676496-ebb340ee4def?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhY2UlMjBNTU9SUEd8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "space MMORPG"
     },
     {
