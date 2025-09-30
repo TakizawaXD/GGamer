@@ -22,7 +22,7 @@ export type Reward = {
 };
 
 export type GameEvent = {
-  id: string;
+  id:string;
   title: string;
   description: string;
   date: string; // ISO string
@@ -51,6 +51,8 @@ export type DiscordPost = {
   content: string;
   timestamp: string;
 };
+
+export type DiscordPostPayload = Omit<DiscordPost, 'id'>;
 
 export type Game = {
   id: string;
