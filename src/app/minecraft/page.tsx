@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const serverIp = 'GGAMER999.aternos.me:44420';
+const serverVersion = '1.21.1';
 
 const features = [
   { 
@@ -57,7 +58,7 @@ async function getMinecraftServerStatus() {
     if (data.online) {
       return {
         ip: serverIp,
-        version: data.version || 'Desconocida',
+        version: serverVersion,
         status: 'Online',
         players: data.players.online,
         maxPlayers: data.players.max,
@@ -70,7 +71,7 @@ async function getMinecraftServerStatus() {
   // Fallback data if API fails or server is offline
   return {
     ip: serverIp,
-    version: 'Desconocida',
+    version: serverVersion,
     status: 'Offline',
     players: 0,
     maxPlayers: 0,
