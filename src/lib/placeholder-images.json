@@ -57,7 +57,7 @@
     {
       "id": "avatar-9",
       "description": "Avatar for Ronan",
-      "imageUrl": "https://images.unsplash.com/photo-1669605140640-d5908ffe8524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1669605140640-d5908ffe8524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbGF5ZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MTg5NjM4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "player avatar"
     },
     {
@@ -205,6 +205,30 @@
       "imageHint": "Minecraft sunset"
     },
     {
+      "id": "minecraft-page-bg",
+      "description": "A vibrant Minecraft landscape with a river and mountains.",
+      "imageUrl": "https://images.unsplash.com/photo-1678864312282-358c388652d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5lY3JhZnQlMjBnYW1lcGxheXxlbnwwfHx8fDE3NTkyNTM4NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft landscape"
+    },
+    {
+      "id": "minecraft-feature-1",
+      "description": "A detailed Minecraft house.",
+      "imageUrl": "https://images.unsplash.com/photo-1605333158022-51980313a07c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5lY3JhZnQlMjBob3VzZXxlbnwwfHx8fDE3NTkyNTQwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft house"
+    },
+    {
+      "id": "minecraft-feature-2",
+      "description": "A group of players in Minecraft.",
+      "imageUrl": "https://images.unsplash.com/photo-1593336357497-55d6482f5043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxNaW5lY3JhZnQlMjBwbGF5ZXJzfGVufDB8fHx8fDE3NTkyNTQwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft players"
+    },
+    {
+      "id": "minecraft-feature-3",
+      "description": "A Minecraft village.",
+      "imageUrl": "https://images.unsplash.com/photo-1594223450993-8a3c89369324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5lY3JhZnQlMjB2aWxsYWdlfGVufDB8fHx8fDE3NTkyNTQwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Minecraft village"
+    },
+    {
       "id": "game-fortnite",
       "description": "Fortnite game art",
       "imageUrl": "https://images.unsplash.com/photo-1640152711682-83939d667926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxGb3J0bml0ZSUyMGdhbWVwbGF5fGVufDB8fHx8MTc1OTE4OTA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -309,7 +333,7 @@
     {
       "id": "game-fallguys",
       "description": "Fall Guys game art",
-      "imageUrl": "https://images.unsplash.com/photo-1610993302487-6dbfc0acf4ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxGYWxsJTIwR3V5cyUyMGNoYXJhY3RlcnN8ZW58MHx8fHwxNzU5MTg5MDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610993302487-6dbfc0acf4ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxGYWxsJTIwR3V5cyUyMGNoYXJhY3RlcnN8ZW58MHx8fHwxNzU5MTg5MDc4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "Fall Guys characters"
     },
     {
@@ -417,7 +441,7 @@
     {
       "id": "game-diablo4",
       "description": "Diablo IV game art",
-      "imageUrl": "https://images.unsplash.com/photo-1510218830377-2e994ea9087d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXJrJTIwZmFudGFzeXxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1510218830377-2e994ea9087d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXJrJTIwZmFudGFzeXxlbnwwfHx8fDE3NTkxODk1MzB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "dark fantasy"
     },
     {
@@ -441,7 +465,7 @@
     {
       "id": "game-warframe",
       "description": "Warframe game art",
-      "imageUrl": "https://images.unsplash.com/photo-1758739956752-c66189171164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758739956752-c66189171164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sci-fi action"
     },
     {
@@ -453,13 +477,13 @@
     {
       "id": "game-bdo",
       "description": "Black Desert Online game art",
-      "imageUrl": "https://images.unsplash.com/photo-1544586259-6a53be83f286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxNTU9SUEclMjBmYW50YXN5fGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1544586259-6a53be83f286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxNTU9SUEclMjBmYW50YXN5fGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "MMORPG fantasy"
     },
     {
       "id": "game-lostark",
       "description": "Lost Ark game art",
-      "imageUrl": "https://images.unsplash.com/photo-1758873263520-1f77729ad5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxNTU9SUEclMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758873263520-1f77729ad5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxNTU9SUEclMjBhY3Rpb258ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "MMORPG action"
     },
     {
@@ -471,7 +495,7 @@
     {
       "id": "game-tarkov",
       "description": "Escape from Tarkov game art",
-      "imageUrl": "https://images.unsplash.com/photo-1668624207787-85bbc288a27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZWFsaXN0aWMlMjBzaG9vdGVyfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1668624207787-85bbc288a27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZWFsaXN0aWMlMjBzaG9vdGVyfGVufDB8fHx8MTc1OTE4OTUzMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "realistic shooter"
     },
     {
@@ -573,7 +597,7 @@
     {
       "id": "game-brawlhalla",
       "description": "Brawlhalla game art",
-      "imageUrl": "https://images.unsplash.com/photo-1559998155-7415c694d03a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGF0Zm9ybSUyMGZpZ2h0ZXJ8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559998155-7415c694d03a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGF0Zm9ybSUyMGZpZ2h0ZXJ8ZW58MHx8fHwxNzU5MTg5NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "platform fighter"
     },
     {
